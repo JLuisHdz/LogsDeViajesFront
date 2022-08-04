@@ -12,3 +12,55 @@
   .nav a:hover {
   color: rgb(197, 197, 197);
   }
+
+  .form {
+    background-color: rgb(255, 255, 255);
+    top: 40px;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    padding: 30px;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+  border-top-right-radius: 0;
+    height: 450px;
+    box-shadow: 0 8px 16px 0
+  rgba(0, 0, 0, 0.2), 0 6px 20px 0
+  rgba(0, 0, 0, 0.12);
+  }
+
+  .form p {
+    font-size: larger;
+    font-weight:900;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 10px;
+  }
+
+  .form input {
+    display:flex;
+    flex-direction: column;
+    width: 95%;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(145, 145, 145);
+    padding: 9px;
+    margin: 8px 0px;
+  }
+
+  .btna {
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 22px 0px;
+    background-color: rgb(1, 110, 110);
+    color: white;
+    border: 0ch;
+  }
+
+  .btna:hover {
+    background-color: rgb(2, 72, 138);
+  }
