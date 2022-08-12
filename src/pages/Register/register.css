@@ -1,0 +1,60 @@
+.register {
+    background-color: rgb(255, 255, 255);
+    top: 100px;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    padding: 30px;
+    border-radius: 8px;
+    height: 80%;
+    box-shadow: 0 8px 16px 0
+  rgba(0, 0, 0, 0.2), 0 6px 20px 0
+  rgba(0, 0, 0, 0.12);
+  }
+
+  .regTitle {
+    font-size: larger;
+    text-align: center;
+    font-weight:900;
+  }
+
+  .register label {
+    font-size: medium;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 10px;
+  }
+
+  .register input {
+    display:flex;
+    flex-direction: column;
+    width: 95%;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(145, 145, 145);
+    padding: 9px;
+    margin: 8px 0px 10px 0px;
+  }
+
+  .btnr {
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 12px 0px;
+    background-color: rgb(0, 113, 219);
+    color: white;
+    border: 0ch;
+    text-decoration: none;
+  }
+
+  .link {
+    text-decoration: none;
+    color: white;
+  }
+
+  .btnr:hover {
+    background-color: rgb(2, 72, 138);
+  }
