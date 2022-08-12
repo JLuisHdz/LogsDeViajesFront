@@ -1,0 +1,12 @@
+{
+    "inicio": "Home",
+    "crear": "Create",
+    "iniciar sesion": "Login",
+    "registrarse": "Register",
+    "is": "Login",
+    "user": "Username",
+    "pass": "Password",
+    "euser": "Enter your username",
+    "epass": "Enter your password"
+
+}
