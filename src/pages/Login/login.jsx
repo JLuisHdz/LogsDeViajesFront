@@ -11,7 +11,7 @@ export default function Login() {
   const passwordRef = useRef();
   const { dispatch, isFetching } = useContext(Context);
 
-  const handleSubmit = async (e) => {
+  const handleEnter = async (e) => {
     e.preventDefault();
     dispatch({ type: "Start" });
     try {
@@ -28,14 +28,14 @@ export default function Login() {
   return (
     <div className="login">
       <span className="logTitle">{t("Iniciar sesion")}</span>
-      <form className="loginForm" onSubmit={handleSubmit}>
-        <label>{t("user")}</label>
+      <form className="loginForm" onSubmit={handleEnter}>
+        <label>{t("username")}</label>
         <input
           type="text"
           placeholder={t("coloca usuario")}
           ref={userRef}
         />
-        <label>{t("pass")}</label>
+        <label>{t("password")}</label>
         <input
           type="password"
           placeholder={t("coloca contraseña")}

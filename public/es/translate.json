@@ -4,8 +4,8 @@
     "iniciar sesion": "Login",
     "registrarse": "Register",
     "is": "Login",
-    "user": "Username",
-    "pass": "Password",
+    "username": "Username",
+    "password": "Password",
     "euser": "Enter your username",
     "epass": "Enter your password"
 

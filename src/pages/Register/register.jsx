@@ -2,14 +2,12 @@ import "./register.css"
 import axios from "axios";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { useTranslation } from 'react-i18next';
 
 export default function Register() {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(false);
-  const { t } = useTranslation(['translate']);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
